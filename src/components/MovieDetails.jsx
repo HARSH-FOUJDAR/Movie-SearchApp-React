@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { getMovieDetails } from "../api/omdbApi";
+import { getMovieDetails } from "../api/OMDBApi";
 
 const MovieDetails = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
-
+//aplijs
   useEffect(() => {
     getMovieDetails(id).then((data) => setMovie(data));
   }, [id]);
