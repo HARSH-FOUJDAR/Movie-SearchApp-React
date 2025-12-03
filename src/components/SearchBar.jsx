@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiSearch } from "react-icons/fi";
 
-const Navbar = () => {
+const SearchBar = () => {
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
@@ -94,4 +94,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SearchBar;
