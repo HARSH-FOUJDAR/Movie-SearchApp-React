@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { searchMovies } from "../api/OMDBApi";
-import MovieCard from "./MovieCard";
+import MovieCard from "./Moviecard";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
