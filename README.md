@@ -5,7 +5,7 @@ Users can search for movies, view detailed information, posters, ratings, releas
 
 🚀 Live Demo
 
-(Add your deployment link here)
+(https://thriving-babka-1f288c.netlify.app/)
 
 ⭐ Features
 
